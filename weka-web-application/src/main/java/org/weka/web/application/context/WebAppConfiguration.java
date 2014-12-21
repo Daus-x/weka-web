@@ -23,8 +23,6 @@ public class WebAppConfiguration extends WebMvcConfigurerAdapter {
         return new StandardServletMultipartResolver();
     }
 
-
-
     @Bean
     public SMOController smoController(){return new SMOController();}
 
